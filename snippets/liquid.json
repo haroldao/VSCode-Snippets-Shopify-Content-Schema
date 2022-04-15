@@ -189,6 +189,18 @@
       ],
       "description": "liq-product"
     },
+    "liq-product_list": {
+      "prefix": "liq-product_list",
+      "body": [
+        "{",
+        "  \"type\": \"product_list\",",
+        "  \"id\": \"${1:id}\",",
+        "  \"label\": \"${2:Text}\",",
+        "  \"limit\": ${1:Limit}",
+        "}"
+      ],
+      "description": "liq-product_list"
+    }
     "liq-collection": {
       "prefix": "liq-collection",
       "body": [
