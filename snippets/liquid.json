@@ -200,7 +200,7 @@
         "}"
       ],
       "description": "liq-product_list"
-    }
+    },
     "liq-collection": {
       "prefix": "liq-collection",
       "body": [
@@ -212,6 +212,18 @@
         "}"
       ],
       "description": "liq-collection"
+    },
+    "liq-collection_list": {
+      "prefix": "liq-collection_list",
+      "body": [
+        "{",
+        "  \"type\": \"collection_list\",",
+        "  \"id\": \"${1:id}\",",
+        "  \"label\": \"${2:Text}\",",
+        "  \"limit\": ${1:Limit}",
+        "}"
+      ],
+      "description": "liq-collection_list"
     },
     "liq-image_picker": {
       "prefix": "liq-image_picker",
